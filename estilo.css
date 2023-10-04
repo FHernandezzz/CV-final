@@ -26,14 +26,12 @@ body {
         color: #fff;
         border: none;
         border-bottom: 1px solid #fff;
-        margin: 0 5px;
-        white-space: nowrap;  
-        font-size: 1em;  
-        padding: 1% 1%;  
+        margin: 0 5px; /* Ajustar el margen entre los botones */
+        white-space: nowrap; /* Evitar el salto de línea en el texto largo del botón */
+        font-size: 0.8em; /* Ajustar el tamaño de la fuente */
+        padding: 5px 10px; /* Ajustar el padding del botón */
     }
 }
-
-
 
 .nav {
     background-color: #3E517A;
