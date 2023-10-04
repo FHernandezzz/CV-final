@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
     margin: 0;
     padding: 0;
@@ -8,14 +8,38 @@ body {
     flex-direction: column;
 }
 
-/* Barra de navegación */
+@media screen and (max-width: 550px) {
+    .menu-toggle {
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    .nav.active {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .boton {
+        display: block;
+        text-align: center;
+        background-color: #3E517A;
+        color: #fff;
+        border: none;
+        border-bottom: 1px solid #fff;
+    }
+}
+
+
 .nav {
     background-color: #3E517A;
     padding: 2% 0;
     text-align: center;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan cuando el ancho es insuficiente */
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .boton {
@@ -34,7 +58,8 @@ body {
     transform: scale(1.05);
 }
 
-/* Título */
+
+
 .titulo {
     color: #3E517A;
     text-align: center;
@@ -42,7 +67,7 @@ body {
     margin: 2% 0;
 }
 
-/* Contenedor principal */
+
 .container {
     background-color: #A8E0FF;
     border-radius: 2em;
@@ -55,7 +80,7 @@ body {
     flex: 1;
 }
 
-/* Columna izquierda */
+
 .columnaizquierda {
     display: flex;
     justify-content: center;
@@ -71,7 +96,7 @@ body {
     width: auto;
 }
 
-/* Columna derecha */
+
 .columnaderecha {
     color: #3E517A;
     font-size: 2.5em;
@@ -84,7 +109,7 @@ body {
     font-weight: bold;
 }
 
-/* Pie de página */
+
 .pie_de_pagina {
     background-color: #3E517A;
     padding: 2% 0;
