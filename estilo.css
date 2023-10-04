@@ -21,15 +21,13 @@ body {
         justify-content: center;
     }
     .boton {
-        display: inline-block;
         text-align: center;
         background-color: #3E517A;
         color: #fff;
         border: none;
         border-bottom: 1px solid #fff;
-        margin: 0 2px; 
-        font-size: 1em;  
-        padding: 1% 1%;  
+        margin: 0 5px; /* Ajustar el margen entre los botones */
+        white-space: nowrap; /* Evitar el salto de línea en el texto largo del botón */
     }
 }
 
