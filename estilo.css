@@ -21,12 +21,13 @@ body {
         justify-content: center;
     }
     .boton {
-        display: block;
+        display: inline-block;
         text-align: center;
         background-color: #3E517A;
         color: #fff;
         border: none;
         border-bottom: 1px solid #fff;
+        margin: 0 10px; 
     }
 }
 
