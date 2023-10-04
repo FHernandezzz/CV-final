@@ -27,8 +27,7 @@ body {
         color: #fff;
         border: none;
         border-bottom: 1px solid #fff;
-        margin: 5px; /* Espacio entre los botones */
-        font-size: 0.8em; /* Tamaño de fuente más pequeño para dispositivos móviles */
+        font-size: 0.4em; /* Tamaño de fuente más pequeño para dispositivos móviles */
         padding: 5px 10px; /* Espacio interno del botón */
     }
 }
