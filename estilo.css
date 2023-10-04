@@ -27,8 +27,6 @@ body {
         color: #fff;
         border: none;
         border-bottom: 1px solid #fff;
-        font-size: 0.4em; /* Tamaño de fuente más pequeño para dispositivos móviles */
-        padding: 5px 10px; /* Espacio interno del botón */
     }
 }
 
