@@ -26,8 +26,10 @@ body {
         color: #fff;
         border: none;
         border-bottom: 1px solid #fff;
-        margin: 0 5px; /* Ajustar el margen entre los botones */
-        white-space: nowrap; /* Evitar el salto de línea en el texto largo del botón */
+        margin: 0 5px;
+        white-space: nowrap;  
+        font-size: 1em;  
+        padding: 1% 1%;  
     }
 }
 
