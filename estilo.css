@@ -17,7 +17,7 @@ body {
     }
     .nav.active {
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap; /* Permitirá que los botones se ajusten en varias filas si es necesario */
         justify-content: center;
     }
     .boton {
@@ -26,10 +26,9 @@ body {
         color: #fff;
         border: none;
         border-bottom: 1px solid #fff;
-        margin: 0 5px; /* Ajustar el margen entre los botones */
-        font-size: 0.8em; /* Ajustar el tamaño de la fuente */
-        padding: 5px 10px; /* Ajustar el padding del botón */
-        white-space: nowrap; /* Evitar el salto de línea en el texto largo del botón */
+        margin: 5px; /* Espacio entre los botones */
+        font-size: 0.8em; /* Tamaño de fuente más pequeño para dispositivos móviles */
+        padding: 5px 10px; /* Espacio interno del botón */
     }
 }
 
