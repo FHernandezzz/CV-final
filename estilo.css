@@ -18,8 +18,9 @@ body {
     .nav.active {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap; /* Evita que los botones se envuelvan en múltiples líneas */
         justify-content: center;
+        overflow-x: auto; /* Agrega una barra de desplazamiento horizontal si los botones no caben */
     }
     .boton {
         text-align: center;
@@ -30,8 +31,7 @@ body {
         margin: 5px; /* Espacio entre los botones */
         font-size: 0.8em; /* Tamaño de fuente más pequeño para dispositivos móviles */
         padding: 5px 10px; /* Espacio interno del botón */
-        max-width: 100%; /* Asegura que los botones no se desborden de la pantalla */
-        box-sizing: border-box; /* Evita que el borde adicional afecte el tamaño */
+        white-space: nowrap; /* Evita el truncamiento del texto en botones largos */
     }
 }
 
